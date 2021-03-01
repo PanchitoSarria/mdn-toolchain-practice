@@ -14,7 +14,7 @@ export default function Orbital({
     >
       <h2>{name.replace(/[()]/g, '')}</h2>
       <p>
-        Potentially hazardous?{' '}
+        Potentially hazardous? (si existe algún riesgo){' '}
         <Hazard yes={is_potentially_hazardous_asteroid} />
       </p>
       <Passing data={close_approach_data} />
